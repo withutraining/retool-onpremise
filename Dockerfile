@@ -1,3 +1,3 @@
-FROM tryretool/backend:2.89.11
+FROM tryretool/backend:2.93.9
 ADD folder /ssl
 CMD ./docker_scripts/start_api.sh
